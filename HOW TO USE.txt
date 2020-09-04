@@ -1,0 +1,18 @@
+
+
+################################
+## READ THIS BEFORE YOU START ##
+################################
+
+1. Unzip "LOMA" 
+2. Place the "LOMA" folder under "C:\" 
+Note: The RunExport.ps1 is only exacutable under "C:\LOMA" as long you don't change the path yourself
+
+
+! If you run over 1000 objects in the "Loma.csv" file, then use the script in Task Scheduler instead.
+
+@ RunExport.ps1 - Export data values from content in LOMA.CVS.
+RunExport-Sharp.ps1 is by default connected to "LOMA.csv"
+
+@ RunExport-Recify.ps1 - During the time when RunExport.ps1 is running, use this similar script to correct the failed 
+RunExport-Recify.ps1 is connected to CSV-file "KORRIGERADE.csv". 
